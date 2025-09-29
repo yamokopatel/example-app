@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
     <head>
     <body>
-        <form method="post">
+        <form method="post" action="/submit">
+            @csrf
             <label for="name">Name</label>
             <input name="name" type="text">
             <br>
